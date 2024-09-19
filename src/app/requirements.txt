@@ -1,0 +1,25 @@
+I'd like to create a small app called testme.ai
+
+Functional details:
+
+- Step 1: the user either uploads a pdf and specifies from which page until which page the selection is OR the user just inputs a piece of text in a text area.
+- Step 2: provide a 'generate test' button. This does the following:
+
+2.1. Take the input and generate (depending on the size of the input) test questions: they should be open ended, with a short answer, and minimal prompting. User should see that the app is busy generating the test.
+2.2. once it is done, the user is notified on the page, and a new button appears 'Done Studying'
+
+- Step 3: after clicking the 'Done Studying' button
+
+3.1. the question(s) are shown, together with input fields for an answer by the user
+3.2 at the end of the questions, a 'check' button' is placed
+
+- Step 4. Check answers
+
+Check the answers from the user and see if they correspond with what you, the system, thinks the answer is. Give pointers on what they missed and what they got right.
+
+
+Technical details:
+
+- It should be able to be easily deployed on vercel
+- it should be purely client side: it could theoretically be ran offline
+- it can be react with nextjs or just plain and simple html css and js, whatever works
